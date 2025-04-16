@@ -1,0 +1,45 @@
+h1{color: rgb(255, 89, 29);}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 120%;
+    text-decoration: crimson;
+    text-align: left;
+    text-transform: none;
+ }
+
+ ul{
+list-style-type:none;
+ }
+
+img{
+    width: 30%;
+    height: 30%;
+}
+    
+h2{
+    list-style-type: none;
+}
+
+a:link{
+    color: darkblue;
+}
+
+a:visited{
+    color: deepskyblue;
+}
+
+a:hover{
+    color: lightseagreen;
+}
+
+
+html{
+    background-color: linen;
+}
+
+article{
+    background-image: url(images/Background\ Image.webp);
+    background-repeat: repeat-x;
+}
