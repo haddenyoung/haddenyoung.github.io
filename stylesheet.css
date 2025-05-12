@@ -1,4 +1,4 @@
-* {margin: 0; padding: 0;}
+* {margin: 10; padding: 10;}
 
 
 #wrapper {
@@ -55,7 +55,27 @@ article{padding:2%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+@media only screen and (max-width: 521px) {
 
+
+    #wrapper {
+    width: 80%;
+    margin: auto;
+    }
+
+    .column {
+    width: 33.33%;
+    float: left;
+    margin: 10%;
+    }
+}
+
+
+header{
+    width: 100%;
+    margin: 2%;
+    padding: auto;
+}
 
 
 h1{color: rgb(255, 89, 29);}
