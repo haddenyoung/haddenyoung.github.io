@@ -1,0 +1,28 @@
+img#ChickenAnimation{
+    position: relative;
+    animation-name: ChickenAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes ChickenAnimation {
+
+ from {left: 0px;}
+ to {left: 900px;}
+}
+
+img#ChickenAnimation{
+    transition-duration: 2s;
+    transition: 0.3s ease-in-out;
+}
+
+img#ChickenAnimation:hover{
+
+    transform: scale(6);
+}
+
+
