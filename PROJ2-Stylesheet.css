@@ -1,0 +1,181 @@
+body {
+
+background-image: url(PROJ2/PROJ2_IMAGES/Space\ Background\ copy.svg);
+background-size: cover;
+background-position: center;
+align-items: Center;
+color: white;
+}
+
+.TheSolarSystem-text {
+
+position: absolute;
+color: black;
+z-index: 2;
+font-weight: 600;
+font-size: 6em;
+padding-top: 2em;
+flex: auto;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.mercury {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 70em;
+    flex: auto;
+    top: 15%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.mercurycontainer {
+
+margin-top: 50em;
+}
+
+.venus {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 70em;
+    flex: auto;
+    top: 15%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.venuscontainer {
+
+    margin-top: 50em;
+    }
+
+
+.earth {
+
+    position: absolute;
+    z-index: 2;
+     padding-top: 70em;
+    flex: auto;
+    top: 15%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.mars {
+
+    position: absolute;
+    z-index: 2;
+     padding-top: 70em;
+    flex: auto;
+    top: 15%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.asteroidbelt {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 50em;
+    flex: auto;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.saturn {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 140em;
+    flex: auto;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.saturncontainer {
+
+    padding-top: 90em;
+    }
+
+
+
+ .jupiter {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 115em;
+    flex: auto;
+    top: 15%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.jupitercontainer {
+
+    padding-top: 90em;
+    }
+
+
+.uranus {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 70em;
+    flex: auto;
+    top: 15%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+.uranuscontainer {
+
+    padding-top: 58em;
+     }
+
+
+.neptune {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 90em;
+    flex: auto;
+    top: 15%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }     
+
+
+.neptunecontainer {
+
+    padding-top: 73em;
+      }
+      
+
+.pluto {
+
+    position: absolute;
+    z-index: 2;
+    padding-top: 90em;
+    flex: auto;
+    top: 15%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }     

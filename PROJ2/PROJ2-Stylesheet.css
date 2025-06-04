@@ -1,0 +1,26 @@
+body {
+
+background-image: url(PROJ2/PROJ2_IMAGES/Space\ Background\ copy.svg);
+background-size: cover;
+background-position: center;
+align-items: Center;
+color: white;
+
+}
+
+.TheSolarSystem-text {
+
+position: absolute;
+color: black;
+z-index: 2;
+font-weight: 600;
+font-size: 6em;
+padding-top: 2em;
+flex: auto;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+
+}
+
