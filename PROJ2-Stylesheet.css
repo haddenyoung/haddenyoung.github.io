@@ -20,6 +20,7 @@ top: 10%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
+max-width: 700px;
 }
 
 .mercury {
@@ -69,6 +70,69 @@ margin-top: 50em;
     transform: translate(-50%, -50%);
     text-align: center;
     }
+
+
+
+img#satellite {
+    position: relative;
+    animation-name: satellite;
+    animation-duration: 12s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes satellite {
+
+    from {left: 0px;}
+    to {left: 1800px;}
+   }
+
+
+img#asteroid {
+    position: relative;
+    animation-name: asteroid;
+    animation-duration: 12s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    z-index: -2;
+}
+
+@keyframes asteroid {
+
+    from {left: -300px;}
+    to {left: 2100px;}
+   }
+
+img#ufo {
+    position: relative;
+    animation-name: ufo;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ufo {
+
+    from {left: 300px;}
+    to {left: 1500px;}
+   }
+
+   img#asteroid2 {
+    position: relative;
+    animation-name: asteroid2;
+    animation-duration: 12s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    z-index: -2;
+}
+
+@keyframes asteroid2 {
+
+    from {left: -300px;}
+    to {left: 2100px;}
+   }
+
+
 
 .mars {
 
@@ -180,6 +244,16 @@ margin-top: 50em;
     text-align: center;
     }     
 
+
+img#pluto:hover {
+
+    transform: scale(6);
+}
+
+img#pluto{
+    transition-duration: 2s;
+    transition: 0.3s ease-in-out;
+}
 
 
 
